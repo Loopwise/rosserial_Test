@@ -23,6 +23,6 @@ void loop()
 {
   str_msg.data = hello;
   chatter.publish( &str_msg );
-  nh.spinOnce();
+  nh.spinOnce();S
   delay(1000);
 }
